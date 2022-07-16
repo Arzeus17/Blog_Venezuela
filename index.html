@@ -4,107 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
     <title>Blog-Vzla</title>
 </head>
 <body>
-    <header style="background-color:rgb(4, 4, 48)">
-        <img src="img/venez.jpg" width="786px" height="200px" alt="foto de Venezuela"/></br>
-        <h1 style="color:whitesmoke" style="text-align:center"><strong>Venezuela Maravilhosa!!!</strong></h1>
+    <header style="background-color:rgb(4, 4, 48)" width="800px">
+        <img src="img/venez.jpg" width="800px" height="200px" alt="foto de Venezuela"/></br>
+        <h1 style="color:whitesmoke" style="text-align:center">Venezuela Maravilhosa!!!</h1>
     </header>
+    <nav class="Menu">
+        <div class="container">
+          <ul>
+            <li><a href="#homePage"> Homepage </a></li>
+            <li><a href="#leftSidebar"> Left Sidebar </a></li>
+            <li><a href="#rigthSidebar"> Rigth Sidebar </a></li>
+            <li><a href="#footer"> Footer </a></li>
+          </ul>
+        </div>
+      </nav>
+    </br>
+    </hr>
     <main>
-        <h2><strong>Sobre Venezuela:</strong></h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam laudantium dicta enim aspernatur totam animi, quae error voluptate labore consequuntur excepturi delectus fugiat consequatur eveniet voluptatum, explicabo iste assumenda quisquam?</p>
-        <h2><strong>Maravilhas turísticas de Venezuela:</strong></h2>
-            <h3><strong>Salto Angel</strong></h3>
-                <img src="img/salto.jpg" width="200px" height="100px" alt="Cachoeira Salto Angel"/></br>
+        <h2 id="homePage"><strong>Sobre Venezuela:</strong></h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam laudantium dicta enim aspernatur totam animi, quae error voluptate labore consequuntur excepturi delectus fugiat consequatur eveniet voluptatum, explicabo iste assumenda quisquam?</p></br>
+    </hr>
+        <h2 style="text-align:center"><strong>Maravilhas turísticas de Venezuela:</strong></h2>
+        <div class="flex">
+            <div>
+            <h3 style="text-align:center"><strong>Salto Angel</strong></h3>
+                <img src="img/salto.jpg" width="390px" height="200px" style="text-align:center" alt="Cachoeira Salto Angel"/></br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p>
-            <h3><strong>Archipielago Los Roques</strong></h3>
-            <img src="img/ilha.jpg" width="200px" height="100px" alt="Archipielago Los Roques"/></br>
+            </div>
+            <div>
+            <h3 style="text-align:center"><strong>Archipielago Los Roques</strong></h3>
+            <img src="img/ilha.jpg" width="390px" height="200px" style="text-align:center" alt="Archipielago Los Roques"/></br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p>
+            </div>
+        </div></br>
+    </hr>
 
         <section aria-label="Simbolos Nacionais" style="background-color:rgb(4, 4, 48)">
-            <h2 style="color:whitesmoke"><strong>Simbolos Nacionais:</strong></h2>
-                <h3 style="color:whitesmoke"><strong>Flor Nacional: Orquidea</strong></h3>
-                    <img src="img/flor3.jpg" width="200px" height="200px" alt="A orquidea nossa flor nacional"/></br>
+            <h2 style="color:white", style="font-size:20px"><strong>Simbolos Nacionais:</strong></h2>
+            <div class="container">
+                <div>
+                <h3 style="text-align:center"><strong>Flor Nacional: Orquidea</strong></h3>
+                    <img src="img/flor3.jpg" width="240px" height="200px" alt="A orquidea nossa flor nacional"/></br>
                     <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
-                <h3 style="color:whitesmoke"><strong>Ave Nacional: Turpial</strong></h3>
-                    <img src="img/ave2.jpg" width="200px" height="200px" alt="O turpial nossa ave nacional"/></br>
+                </div>
+                <div>
+                <h3 style="text-align:center"><strong>Ave Nacional: Turpial</strong></h3>
+                    <img src="img/ave2.jpg" width="240px" height="200px" alt="O turpial nossa ave nacional"/></br>
                     <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
-                <h3 style="color:whitesmoke"><strong>Árvore Nacional: Orquidea</strong></h3>
-                    <img src="img/arvore2.jpg" width="200px" height="200px" alt="O araguaney nosso árvore nacional"/></br>
+                </div>
+                <div>
+                <h3 style="text-align:center"><strong>Árvore Nacional: Araguaney</strong></h3>
+                    <img src="img/arvore2.jpg" width="240px" height="200px" alt="O araguaney nosso árvore nacional"/></br>
                     <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
+                </div>
+                </div>
         </section></br>
-        <section aria-label="Música Típica">
-            <h2><strong>Musica Típica:</strong></h2>
+    </hr>
+    <section>
+        <div class="info">
+            <div>
+    <aside>
+        <h2 id="leftSidebar" style="color:whitesmoke"><strong>Nossas Regioes:</strong></h2>
+            <h3><strong>Os Andes:</strong></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eligendi?</p>
+                <img src="img/andes2.jpg" width="435px" height="200px" alt="Paisagen dos Andes venezuelanos"/>
+            </br>
+    </hr>
+            <h3><strong>Regiao Central:</strong></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quasi.</p>
+                <img src="img/centro.jpg" width="435px" height="200px" alt="Paisagen da regiao central venezuelana"/>
+            </br>
+            </hr>
+            <h3><strong>Guayana:</strong></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, asperiores.</p>
+                <img src="img/sur.jpg" width="435px" height="200px" alt="Paisagen de Guayana"/>
+            </br>
+            </hr>
+            <h3><strong>Os Llanos:</strong></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, numquam.</p>
+                <img src="img/llanos.jpg" width="435px" height="200px" alt="Paisagen dos llanos venezuelanos"/>
+            </br>
+            </hr>
+            <h3><strong>Occidente:</strong></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, libero.</p>
+                <img src="img/occidente.jpg" width="435px" height="200px" alt="Paisagen do occidente venezuelano"/>
+            </br>
+            </hr>
+            <h3><strong>Oriente:</strong></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, optio!</p>
+                <img src="img/oriente.jpeg" width="435px" height="200px" alt="Paisagen do oriente venezuelano"/></br>
+    </aside>
+    </div>
+    <div>
+        <section id="rigthSidebar" aria-label="Música Típica">
+            <h2 style="text-align:center"><strong>Musica Típica:</strong></h2>
                 <h3><strong>Joropo</strong></h3>
-                    <img src="img/Joropo.jpg" width="200px" height="100px" alt="O joropo, dança tipica dos llanos"/></br>
+                    <img src="img/Joropo.jpg" width="330px" height="200px" alt="O joropo, dança tipica dos llanos"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
                 <h3><strong>Gaita</strong></h3>
-                    <img src="img/gaita.jpg" width="200px" height="100px" alt="A gaita, muisca tipica do occidente venezuelano y de natal"/></br>
+                    <img src="img/gaita.jpg" width="330px" height="200px" alt="A gaita, muisca tipica do occidente venezuelano y de natal"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
                 <h3><strong>Calipso</strong></h3>
-                    <img src="img/calipso.jpg" width="200px" height="100px" alt="O calipso, dança tipica da regiao guayanesa"/></br>
+                    <img src="img/calipso.jpg" width="330px" height="200px" alt="O calipso, dança tipica da regiao guayanesa"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
                 <h3><strong>Tambores</strong></h3>
-                    <img src="img/tambor.jpg" width="200px" height="100px" alt="Os tambores, musica tipica da costa venezuelana"/></br>
+                    <img src="img/tambor.jpg" width="330px" height="200px" alt="Os tambores, musica tipica da costa venezuelana"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
                 <h3><strong>Vals</strong></h3>
-                    <img src="img/vals.jpg" width="200px" height="100px" alt="Os valses, danças tipicas dos andes"/></br>
+                    <img src="img/vals.jpg" width="330px" height="200px" alt="Os valses, danças tipicas dos andes"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
                 <h3><strong>Salsa</strong></h3>
-                    <img src="img/Salsa.jpg" width="200px" height="100px" alt="A salsa, dança da regiao central"/></br>
+                    <img src="img/Salsa.jpg" width="330px" height="200px" alt="A salsa, dança da regiao central"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p>
+                </section>
+        </div>
         </section></br>
-    
-        <section aria-label="Comida Criolla" style="background-color:rgb(63, 63, 205)">
-            <h2 style="color:whitesmoke"><strong>Comida Criolla:</strong></h2>
-                <h3 style="color:whitesmoke"><strong>Hallacas</strong></h3>
-                    <img src="img/hallaca.jpg" width="200px" height="100px" alt="Hallacas"/></br>
-                    <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
-                <h3 style="color:whitesmoke"><strong>Arepas</strong></h3>
-                    <img src="img/arepa.jpg" width="200px" height="100px" alt="arepas"/></br>
-                    <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
-                <h3 style="color:whitesmoke"><strong>Pabellon criollo</strong></h3>
-                    <img src="img/pabellon.jpg" width="200px" height="100px" alt="pabellon criollo"/></br>
-                    <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
-                <h3 style="color:whitesmoke"><strong>Cachapas</strong></h3>
-                    <img src="img/cachapa.jpg" width="200px" height="100px" alt="Cachapas"/></br>
-                    <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
-                <h3 style="color:whitesmoke"><strong>Asopado de mariscos</strong></h3>
-                    <img src="img/asopado.jpg" width="200px" height="100px" alt="Asopado de frutos do mar"/></br>
-                    <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
-                <h3 style="color:whitesmoke"><strong>Empanadas</strong></h3>
-                    <img src="img/EMPANADAS.jpg" width="200px" height="100px" alt="Empanadas"/></br>
-                    <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p></br>
-                <h3 style="color:whitesmoke"><strong>Patacon</strong></h3>
-                    <img src="img/patacon.jpg" width="200px" height="100px" alt="patacones"/></br>
-                    <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni quasi doloribus consequuntur enim dolores illo quis, at optio dicta!</p>
-    </section></br>
+    </div>
+           <section id="footer" aria-label="Comida Criolla">
+            <h2 style="text-align: center"><strong>Comida Criolla:</strong></h2>
+            <div class="nota">
+                <div>
+                    <h3 style="text-align: center"><a href='https://arzeus17.github.io/Receita_Hallacas/'><strong>Hallacas</strong></a></h3>
+                    <img src="img/hallaca.jpg" width="125px" height="60px" alt="Hallacas"/></br>
+                </div>
+                <div>
+                <h3 style="text-align: center"><strong>Arepas</strong></h3>
+                    <img src="img/arepa.jpg" width="125px" height="60px" alt="arepas"/></br>
+                    </div>
+                    <div>
+                <h3 style="text-align: center"><strong>Pabellon</strong></h3>
+                    <img src="img/pabellon.jpg" width="125px" height="60px" alt="pabellon criollo"/></br>
+                    </div>
+                    <div>
+                <h3 style="text-align: center"><strong>Cachapas</strong></h3>
+                    <img src="img/cachapa.jpg" width="125px" height="60px" alt="Cachapas"/></br>
+                    </div>
+                    <div>
+                <h3 style="text-align: center"><strong>Asopado</strong></h3>
+                    <img src="img/asopado.jpg" width="125px" height="60px" alt="Asopado de frutos do mar"/></br>
+                    </div>
+                    <div>
+                <h3 style="text-align: center"><strong>Patacon</strong></h3>
+                    <img src="img/patacon.jpg" width="125px" height="60px" alt="patacones"/></br>
+                    </div>
+                </div>
+                </section></br>
+            
 </main>
 
-    <aside style="background-color:rgb(2, 37, 2)">
-        <h2 style="color:whitesmoke"><strong>REGIOES</strong></h2>
-            <h3 style="color:whitesmoke"><strong>ANDES:</strong></h3>
-                <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eligendi?</p>
-                <img src="img/andes2.jpg" width="400px" height="200px" alt="Paisagen dos Andes venezuelanos"/></br>
-            <h3 style="color:whitesmoke"><strong>CENTRAL:</strong></h3>
-                <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quasi.</p>
-                <img src="img/centro.jpg" width="400px" height="200px" alt="Paisagen da regiao central venezuelana"/></br>
-            <h3 style="color:whitesmoke"><strong>GUAYANA:</strong></h3>
-                <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, asperiores.</p>
-                <img src="img/sur.jpg" width="400px" height="200px" alt="Paisagen de Guayana"/></br>
-            <h3 style="color:whitesmoke"><strong>LLANOS:</strong></h3>
-                <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, numquam.</p>
-                <img src="img/llanos.jpg" width="400px" height="200px" alt="Paisagen dos llanos venezuelanos"/></br>
-            <h3 style="color:whitesmoke"><strong>OCCIDENTE:</strong></h3>
-                <p style="color:whitesmoke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, libero.</p>
-                <img src="img/occidente.jpg" width="400px" height="200px" alt="Paisagen do occidente venezuelano"/></br>
-            <h3 style="color:whitesmoke"><strong>ORIENTE:</strong></h3>
-                <p style="color:whitesmoke">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, optio!</p>
-                <img src="img/oriente.jpeg" width="400px" height="200px" alt="Paisagen do oriente venezuelano"/></br>
-    </aside>
-    <footer>
-        <p>Entre em contato:</p>
-    </footer>
+    
+    <div>
+        <p style="text-align: center"><strong>Obrigado pela sua visita!!!</strong></p>
+    </div>
 </body>
 </html>
